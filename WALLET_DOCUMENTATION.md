@@ -89,7 +89,7 @@ The application handles several error scenarios:
 ### Assumptions
 1. **Daily Price Granularity**: Historical prices are fetched at daily granularity (one price per day), not intraday prices
 2. **USD Only**: Only USD fiat values are displayed (other currencies could be added)
-3. **Transaction Limit**: Shows up to 50 most recent transactions (can be adjusted in the code)
+3. **Transaction Limit**: Shows up to 55 most recent transactions (can be adjusted in the code)
 4. **Price Availability**: Assumes CoinGecko has price data for the transaction dates (Bitcoin prices available from ~2013 onwards)
 
 ### Limitations
