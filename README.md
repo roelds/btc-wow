@@ -24,16 +24,16 @@ Try this address to see the app in action:
 ## How It Works
 
 1. Enter any Bitcoin address in the search field
-2. Application fetches transaction data from BlockCypher API
-3. For each transaction, retrieves the Bitcoin price from that specific date using CoinGecko API
+2. Application fetches transaction data
+3. For each transaction, retrieves the Bitcoin price from that specific date
 4. Displays all transactions with their historical USD values
 5. Shows current balance with USD value based on the most recent transaction's exchange rate
 
 ## Technical Stack
 
 - **Frontend**: React + TypeScript + Vite + Tailwind CSS
-- **Blockchain Data**: BlockCypher API
-- **Price Data**: CoinGecko API
+- **Blockchain Data**: free tier API
+- **Price Data**: free tier API
 - **Icons**: Lucide React
 
 ## Documentation
@@ -52,7 +52,7 @@ See [WALLET_DOCUMENTATION.md](./WALLET_DOCUMENTATION.md) for complete documentat
 - This is a **watch-only** wallet - no private keys, completely safe
 - Rate limiting applies to free API tiers - includes automatic delays
 - Historical prices use daily granularity
-- Shows up to 50 most recent transactions per address
+- Shows up to 55 most recent transactions per address
 - Price data available from ~2013 onwards
 
 ## Build
@@ -62,3 +62,7 @@ npm run build
 ```
 
 Production build completed successfully and verified.
+
+## Inception
+
+- Made using Bolt
